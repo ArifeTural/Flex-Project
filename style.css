@@ -160,6 +160,7 @@ h2{
     flex-wrap: wrap;
     margin-top: 12rem;
    padding-bottom: 10rem;
+   padding-top: 10rem;
 
 }
 .me{
@@ -192,4 +193,89 @@ span{
 
 }
 
+/*----------------------------------------------------------*/
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 9rem;
+    padding-bottom: 15rem;
+
+}
+
+.skills h1{
+    color: #7E391C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px ;
+    width: 70%;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+}
+
+.skillsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box{
+    background-color: #DA9A78;
+    border: 2px solid #7E391C;
+    border-radius: 5rem;
+    max-width: 30rem;
+    max-height: 40rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
     
+
+}
+.box p{
+    margin-left: 4rem;
+    font-size: 12px;
+    color: #f6d7c2 ;
+}
+
+.box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #7E391C;
+}
+
+.box i{
+    color: beige;
+    font-size: 40px;
+}
+
+.box:hover{
+    border: 2px solid #7E391C;
+    box-shadow:0 0 5rem #7E391C;
+    max-width: 40rem;
+    max-height: 50rem;
+}
+
+
+
+/*----------------------------------------------------------*/
+
+.project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.pro{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    
+}
+
