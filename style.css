@@ -4,8 +4,192 @@
     box-sizing: border-box;
 
 }
-img{ 
+body{
+    background-color:#FCCFAF;
+}
+.container{
+
+    background-color: #FCCFAF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 6rem;
+    
+}
+
+.navbar{
+    font-size: 20px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
+     position: fixed; 
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1;
+   
+}
+h2{
+    color: azure;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: #6f2406e6;
+}
+.nav a:hover{
+    color: azure;
+    padding: 1rem 1rem;
+}
+
+.giris{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     text-align: center;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+   
+    
+    
+}
+/* .sag{
+    
+    border: 2px solid #000;
+} */
+
+.giris1{
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+.giris1 h3, p{
+    color: #6f2406e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.giris1 h3, .renk, p{
+    width: 70%;
+    text-align: justify;
+
+}
+.link{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+   font-size: 30px;
+ 
+   margin-top: 3rem;
+}
+
+.link a{
+    color: #6f2406e6;
+}
+
+.but {
+   min-width: 50%;
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    background-color: #6f2406e6;
+   padding: 0.5rem 2rem;
+   border-radius: 1rem;
+   text-decoration: none;
+   color: #f76a0551;
+   font-size: 30px;
+   box-shadow: 0 0 2rem black ;
+   margin-left: rem;
+   margin-top: 2rem;
+   
+
+
+}
+
+.but:hover{
+    color: azure;
+    background-color: #A7491A;
+}
+.sol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sol img{ 
+    margin: 0;
+    margin-bottom: 10rem; 
+    width: 100%;
     max-width: 20rem;
     max-height: 20rem;
+    margin-top: 6rem; 
+    border-radius: 10rem;
+    box-shadow: 0 0 2rem black ;
+
 }
+
+
+/*----------------------------------------------------------*/
+
+.aboutme{
+    background-color: #a7491a6b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     text-align: center;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+   padding-bottom: 10rem;
+
+}
+.me{
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.me h1{
+    color: #7E391C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px ;
+    width: 70%;
+    text-align: justify;
+
+}
+span{
+    color: beige;
+}
+
+.me h3{
+    color: beige;
+    font-family: "Playwrite US Modern", cursive;
+    width: 70%;
+    text-align: justify;
+
+
+}
+
     
