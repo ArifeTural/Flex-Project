@@ -340,3 +340,20 @@ span{
 }
 
 /*----------------------------------------------------------*/
+
+footer{
+    padding: 1.5rem;
+    background-color: #7E391C;
+    width: 100%;
+   
+}
+
+footer p{
+    color: beige;
+    text-align: start;
+    font-size: 20px;
+}
+p span{
+    font-family: "Playwrite US Modern", cursive;
+
+}
